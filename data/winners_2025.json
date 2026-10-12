@@ -1,0 +1,122 @@
+[
+  {
+    "round": 1,
+    "race": "Australian Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 2,
+    "race": "Chinese Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 3,
+    "race": "Japanese Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 4,
+    "race": "Bahrain Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 5,
+    "race": "Saudi Arabian Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 6,
+    "race": "Miami Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 7,
+    "race": "Emilia Romagna Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 8,
+    "race": "Monaco Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 9,
+    "race": "Spanish Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 10,
+    "race": "Canadian Grand Prix",
+    "winner": "George Russell"
+  },
+  {
+    "round": 11,
+    "race": "Austrian Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 12,
+    "race": "British Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 13,
+    "race": "Belgian Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 14,
+    "race": "Hungarian Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 15,
+    "race": "Dutch Grand Prix",
+    "winner": "Oscar Piastri"
+  },
+  {
+    "round": 16,
+    "race": "Italian Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 17,
+    "race": "Azerbaijan Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 18,
+    "race": "Singapore Grand Prix",
+    "winner": "George Russell"
+  },
+  {
+    "round": 19,
+    "race": "United States Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 20,
+    "race": "Mexico City Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 21,
+    "race": "São Paulo Grand Prix",
+    "winner": "Lando Norris"
+  },
+  {
+    "round": 22,
+    "race": "Las Vegas Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 23,
+    "race": "Qatar Grand Prix",
+    "winner": "Max Verstappen"
+  },
+  {
+    "round": 24,
+    "race": "Abu Dhabi Grand Prix",
+    "winner": "Max Verstappen"
+  }
+]
