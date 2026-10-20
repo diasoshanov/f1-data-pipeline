@@ -1,6 +1,8 @@
 import logging
 import time
 import requests
+import os
+import json
 
 BASE_URL = "https://api.jolpi.ca/ergast/f1"
 PAGE_SIZE = 100
@@ -51,6 +53,13 @@ def fetch_results(season):
         all_rows.extend(_flatten(races, season))
         offset += PAGE_SIZE
     return all_rows
+
+def save_raw(rows, path):
+    """Сохранить список строк в JSON-файл."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as file:
+        json.dump(rows, file, ensure_ascii=False, indent=2)
+    logging.info('Сырые данные сохранены: %s (%s строк)', path, len(rows))
 
 if __name__ == '__main__':
     rows = fetch_results(2024)
