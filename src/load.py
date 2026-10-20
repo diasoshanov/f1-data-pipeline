@@ -1,6 +1,6 @@
 import logging
 import os
-
+import json
 import psycopg2
 from psycopg2.extras import execute_values
 from dotenv import load_dotenv
@@ -16,7 +16,7 @@ COLUMNS = [
 def get_connection():
     """Подключение к Postgres, параметры из .env."""
     return psycopg2.connect(
-        host='localhost',
+        host=os.getenv('POSTGRES_HOST', 'localhost'),
         port=5432,
         dbname=os.getenv('POSTGRES_DB'),
         user=os.getenv('POSTGRES_USER'),
@@ -50,7 +50,13 @@ def load_results(rows):
         logging.info('Записано строк: %s', len(values))
     finally:
         conn.close()
-    
+
+def load_from_file(path):
+    """Прочитать JSON и записать строки в Postgres."""
+    with open(path, 'r', encoding='utf-8') as file:
+        rows = json.load(file)
+    logging.info('Прочитано строк из файла: %s', len(rows))
+    load_results(rows)
 
 
 if __name__ == '__main__':
